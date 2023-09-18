@@ -1,4 +1,25 @@
-h1 {
-    font-family: 'Courier New', Courier, monospace;
+body {
+   font-family: 'Courier New', Courier, monospace;
+
+}
+body{
+background-color: lightblue;
+}
+
+
+header {
+   display: flex;
+   justify-content: space-between;
+   background-color:silver;
+}
+
+.center {
+   text-align: right;
+}
+.topicos {
+display: flex;
+}
+.logo {
+   text-align: right;
 }
 

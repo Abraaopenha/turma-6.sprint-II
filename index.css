@@ -2,24 +2,26 @@ body {
    font-family: 'Courier New', Courier, monospace;
 
 }
-body{
-background-color:lightgray;
+
+body {
+   background-color: lightgray;
 }
 
 
 header {
    display: flex;
    justify-content: space-between;
-   background-color:lightblue;
+   background-color: lightblue;
 }
 
 .center {
    text-align: right;
 }
+
 .topicos {
-display: flex;
+   display: flex;
 }
+
 .logo {
    text-align: right;
 }
-

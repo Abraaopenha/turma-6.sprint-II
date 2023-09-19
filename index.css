@@ -3,14 +3,14 @@ body {
 
 }
 body{
-background-color: lightblue;
+background-color:lightgray;
 }
 
 
 header {
    display: flex;
    justify-content: space-between;
-   background-color:silver;
+   background-color:lightblue;
 }
 
 .center {

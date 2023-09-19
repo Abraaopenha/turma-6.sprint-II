@@ -12,16 +12,28 @@ header {
    display: flex;
    justify-content: space-between;
    background-color: lightblue;
+   padding: 2;
 }
 
 .center {
    text-align: right;
+padding: 2%;
+
+}
+.center {
+   color: black;
 }
 
 .topicos {
    display: flex;
+   padding: 2%;
 }
 
 .logo {
    text-align: right;
+   padding: 2%;
 }
+#titulo-h {
+   padding: 2;
+}
+

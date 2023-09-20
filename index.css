@@ -11,16 +11,17 @@ body {
 header {
    display: flex;
    justify-content: space-between;
-   background-color: lightblue;
-   padding: 2;
+   background-color: rgb(255, 255, 98);
+   padding: 2px;
 }
 
 .center {
    text-align: right;
-padding: 2%;
+   padding: 2%;
 
 }
-.center {
+
+b a{
    color: black;
 }
 
@@ -33,7 +34,3 @@ padding: 2%;
    text-align: right;
    padding: 2%;
 }
-#titulo-h {
-   padding: 2;
-}
-

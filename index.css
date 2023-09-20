@@ -5,6 +5,7 @@ body {
 
 body {
    background-color: lightgray;
+   margin: 0;
 }
 
 
@@ -15,6 +16,10 @@ header {
    padding: 2px;
 }
 
+header a:hover {
+   text-decoration: underline; /* Sublinhe o link ao passar o mouse */
+   background-color: #ccc;
+}
 .center {
    text-align: right;
    padding: 2%;

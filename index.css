@@ -4,7 +4,7 @@ body {
 }
 
 body {
-   background-color: lightgray;
+   background-color: rgb(255, 255, 255);
    margin: 0;
 }
 
@@ -13,12 +13,7 @@ header {
    display: flex;
    justify-content: space-between;
    background-color: rgb(255, 255, 98);
-   padding: 2px;
-}
-
-header a:hover {
-   text-decoration: underline; /* Sublinhe o link ao passar o mouse */
-   background-color: #ccc;
+   padding-left: 20px;
 }
 .center {
    text-align: right;
@@ -26,13 +21,28 @@ header a:hover {
 
 }
 
+header a{
+   text-decoration:none;
+   font-size: 18px;
+   margin-left: 20px;
+}
+
+header a:hover {
+   text-decoration: underline; /* Sublinhe o link ao passar o mouse */
+}
+
 b a{
    color: black;
 }
 
+span{
+   background: rgb(255, 255, 98);
+}
+
 .topicos {
    display: flex;
-   padding: 2%;
+   justify-content: space-between;
+   padding: 20px;
 }
 
 .logo {

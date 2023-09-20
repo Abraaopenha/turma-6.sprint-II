@@ -41,11 +41,25 @@ span{
 
 .topicos {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    padding: 20px;
 }
+
+.livros {
+   display: flex;
+   justify-content: center;
+   
+}
+
+.tituloLivro{
+   text-align: center;
+   margin-top: 20px;
+}
+
+
 
 .logo {
    text-align: right;
    padding: 2%;
+   margin: -auto;
 }

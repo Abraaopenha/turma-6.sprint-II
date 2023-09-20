@@ -5,15 +5,29 @@ body {
 
 body {
    background-color: lightgray;
+   margin: 0;
 }
 
 
 header {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
    background-color: lightblue;
+   text-align: center;
+   align-items: center;
+}
+header a{
+text-decoration: none;
+font-size: 1.4em;
+padding: 1em;
+text-align:center;
+color: black;
 }
 
+header a:hover {
+   text-decoration: underline; /* Sublinhe o link ao passar o mouse */
+   background-color: #ccc;
+}
 .center {
    text-align: right;
 }

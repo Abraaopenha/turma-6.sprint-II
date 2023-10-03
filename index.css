@@ -4,7 +4,7 @@ body {
 }
 
 body {
-   background-color: rgb(255, 255, 255);
+   background-color: white;
    margin: 0;
 }
 
@@ -62,4 +62,39 @@ span{
    text-align: right;
    padding: 2%;
    margin: -auto;
+}
+.quaisTipos {
+   text-align: center;
+   margin-top: 20px;
+   padding: 2%;
+}
+
+.desencandeia {
+   text-align: center;
+   margin-top: 20px;
+   padding: 2%;
+}
+
+.fatores  {
+   text-align: center;
+   margin-top: 20px;
+   padding: 2%;
+}
+.ligacao {
+   text-align: center;
+   margin-top: 20px;
+   padding: 2%;
+}
+.comoSaber {
+   text-align: center;
+   margin-top: 50px;
+   padding: 10%;
+}
+.teste {
+   
+   margin-top: 20px;
+   padding: 2%;
+}
+.tituloTeste {
+   text-align: center;
 }

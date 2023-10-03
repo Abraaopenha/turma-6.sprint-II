@@ -1,13 +1,13 @@
 body {
     display:block;
     font-family: 'Courier New', Courier, monospace;
-    background-color: lightgray;
+    color: white;
     margin: 0;
     text-align: center;
 
  }
  h1{
-    font-size: 3em;
+    font-size: 3em;  
  }
  p{
     padding: 5rem;

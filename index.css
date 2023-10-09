@@ -98,3 +98,17 @@ span{
 .tituloTeste {
    text-align: center;
 }
+.mao  {
+   display: flex;
+   margin-top: 20px;
+   padding: 2%;
+}
+.Ola {
+   margin-top: 5px;
+   padding: 2%;
+}
+.nos {
+   text-align: center;
+   margin-top: 10px;
+padding-right: 0%;
+}

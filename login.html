@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -17,20 +18,20 @@
                 <p>Seja bem-Vindo(a) Faça login para acessar sua conta ou Faça seu cadatro</p>
                 <form action="login.php" method="post">
                     <div class="login">
-                        <label for="emeio">e-meio</label>
-                        <input type="password" name="Login" id="emeio" placeholder="e-maio">
+                        <label for="email">e-mail</label>
+                        <input type="email" name="Login" id="email" placeholder="e-mail">
 
 
                     </div>
 
                     <div class="senha">
                         <label for="isenha">senha.</label>
-                        <input type="password" name="senha" id="isenha" placeholder="sua senha">
-
+                        <input type="password" name="senha" id="isenha" maxlength="8" placeholder="8 Digitos" value="">
+                        <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
 
                         <h5>Ainda não tem conta?</h5>
 
-                       <h5> <a href="criarConta.html">criar conta</a></h5>
+                        <h5> <a href="criarConta.html">criar conta</a></h5>
 
 
 
@@ -43,6 +44,8 @@
 
 
     </main>
+<script src="index.js"></script>
+
 </body>
 
 </html>

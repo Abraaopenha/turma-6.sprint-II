@@ -1,3 +1,5 @@
-let dificilAcalmar = 0
+function mostrarSenha () {
 
-document.getElementsByClassName('dificilAcalmar')
+    var inputPass = document.getElementById('senha')
+    var btnShowPass = document.getElementById
+}

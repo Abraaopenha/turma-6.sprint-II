@@ -14,37 +14,41 @@
     <main>
         <section id="login">
             <div id="formulario">
-                <h1>Login</h1>
-                <p>Seja bem-Vindo(a) Faça login para acessar sua conta ou Faça seu cadatro</p>
-                <form action="login.php" method="post">
-                    <div class="login">
-                        <label for="email">e-mail</label>
-                        <input type="email" name="Login" id="email" placeholder="e-mail">
+                <div class="senha">
+                    <h1>Faça Seu Login</h1>
+                    <p>Seja bem-Vindo(a) Faça login para acessar sua conta ou Faça seu cadatro</p>
+                    <form action="login.php" method="post">
 
-
-                    </div>
-
-                    <div class="senha">
-                        <label for="isenha">senha.</label>
-                        <input type="password" name="senha" id="isenha" maxlength="8" placeholder="8 Digitos" value="">
-                        <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
-
-                        <h5>Ainda não tem conta?</h5>
-
-                        <h5> <a href="criarConta.html">criar conta</a></h5>
+                        <div class="login">
+                            <label for="email">e-mail</label>
+                            <input type="email" name="Login" id="email" placeholder="e-mail">
 
 
 
 
-                    </div>
-                </form>
-            </div>
+                            <div class="senha">
+                                <label for="isenha">senha.</label>
+                                <input type="password" name="senha" id="senha" maxlength="8" placeholder="8 Digitos"
+                                    value="">
+                                <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
+
+                                <h5>Ainda não tem conta?</h5>
+
+                                <h5> <a href="criarConta.html">criar conta</a></h5>
+                            </div>
+                            <div class="mulher">
+                                <img src="img/mulherLogin.jpg" height="350" width="350">
+
+
+                            </div>
+                    </form>
+                </div>
         </section>
 
 
 
     </main>
-<script src="index.js"></script>
+    <script src="index.js"></script>
 
 </body>
 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -24,42 +25,31 @@
                     placeholder="digite seu e-mail" </p>
             <p>
                 <label for="itel">Telefone</label>
-                <input type="tel" name="tel" id="itel" autocomplete="tel" 
-                pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" required>
 
             </p>
         </fieldset>
 
-        <fieldset id="sexo">
-            <legend>Sexo</legend>
-            <input type="radio" name="tSexo" id="cMasc" /><label for="cMasc">Masculino</label>
-            <input type="radio" name="tSexo" id="cFem" /><label for="cFem">Feminino</label>
-            <input type="radio" name="tSexo" id="cOut" /><label for="cOut">Outros</label>
-        </fieldset>
 
-        <fieldset id="endereço">
-            <legend>Cidade e Estado do usuário</legend>
-            <p><label for="cCidade">Cidade</label><input type="text" cidade="tcidade" id="cCidade" size="20"
-                    maxlength="30" placeholder="Digite sua Cidade" </p>
-            <p><label for="cEstado">Estado</label><input type="text" estado="tEstado" id="cEstado" size="20"
-                    maxlength="30" placeholder="Digite seu Estado" </p>
-        </fieldset>
-
+<div class="criarSenha">
         <fieldset id="Criar Senha">
             <legend>Criar Senha</legend>
-            <p><label for="cSenha">Senha:</label><input type="password" senha="tSenha" id="cSenha" size="8"
-                    maxlength="8" placeholder="8 Digitos" </p>
-            <p><label for="cSenha">Confirmar Senha:</label><input type="password" senha="tSenha" id="cSenha" size="8"
-                    maxlength="8" placeholder="8 Digitos" </p>
+            <p><label for="cSenha">Senha:</label><input type="password" id="senha1" size="8"
+                    maxlength="8" placeholder="8 Digitos"/> </p>
+            <p><label for="cSenha">Confirmar Senha:</label><input type="password" id="senha2" size="8"
+                    maxlength="8" placeholder="8 Digitos"/> </p>
+                    <p id="mensagem">
 
+                    </p>
         </fieldset>
-
-
-
+        <div class="enviar">
+            <button onclick="verificarSenhas()">Enviar</button>
+        </div>
+        </div>
 
     </form>
 
-
+''
 
 
 

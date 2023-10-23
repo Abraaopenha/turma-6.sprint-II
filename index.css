@@ -128,8 +128,8 @@ div i {
    font-size: 20px;
    cursor: pointer;
    position: absolute;
-   right: 41%;
-   margin: -1, 6%;
+   right: 11%;
+   margin: top -2,5%;
    color: #8f8b8b;
 }
 
@@ -139,16 +139,32 @@ div i {
    left: 0;
    width: 100px;
    height: auto;
-   margin: 1%;
+   margin: 5%;
    display: flex;
    padding-top: 2%;
 }
 
 
 
-.senha {
-   margin-top: 50px;
-   padding: 15px;
+.login {
+   margin-top: 100px;
+   padding: 11%;
    text-align: right;
-   float: right
+   display: flow-root;
+   margin: 50px auto;
+}
+.senha {
+
+   margin-top: 15px;
+
+}
+.confirLogin {
+   padding: 11px;;
+   margin-top: 2px;
+   font-size: 10px;
+  margin-right: 5%;
+   
+   
+   
+   
 }

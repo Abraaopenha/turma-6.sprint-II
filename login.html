@@ -15,34 +15,54 @@
         <section id="login">
             <div id="formulario">
 
-                <div class="senha">
-                    <h1>Seja bem-Vindo(a)</h1>
-                    <p> acesse sua conta ou Faça seu cadatro</p>
+                <div class="login">
+                    <h1>Seja Bem-Vindo(a)</h1>
+                    <h4>
+                        <p> acesse sua conta ou Faça seu cadatro</p>
+                    </h4>
                     <form action="login.php" method="post">
 
-               
-
-            
-
-                    <label for="email">e-mail</label>
-                    <input type="email" name="Login" id="email" placeholder="e-mail">
 
 
+                        <div class="email">
+
+                            <label for="email">e-mail</label>
+                            <input type="email" name="Login" id="email" placeholder="e-mail">
+
+                        </div>
+
+                        <div class="senha">
+
+                            <label for="isenha">senha.</label>
+                            <input type="password" name="senha" id="senha" maxlength="8" placeholder="8 Digitos"
+                                value="">
+                            <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
+
+                        </div>
+
+                        
+
+                        <div class="confirLogin">
+
+                            <p> <button><a href="login.html">Login</a></button> </p>
+                            <span class="texte1">
+                                Esqueçeu sua
+                                
+                                </span>
+                            
+                            <a href="#" class="texte2">
+                            Senha?
+                        </a>
+                        </div>
+                        <span class="texte3">
+                            Não tem conta?
+                        </span>
+                        <h5> <a href="criarConta.html">criar conta</a></h5>
 
 
-
-                    <label for="isenha">senha.</label>
-                    <input type="password" name="senha" id="senha" maxlength="8" placeholder="8 Digitos" value="">
-                    <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
-
-                    <h5>Ainda não tem conta?</h5>
-
-                    <h5> <a href="criarConta.html">criar conta</a></h5>
-
-             
                 </div>
                 <div class="mulher">
-                    <img src="img/mulherLogin.jpg" height="500" width="550">
+                    <img src="img/mulherLogin.jpg" height="500" width="650">
 
                 </div>
 

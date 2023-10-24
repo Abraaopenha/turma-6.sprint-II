@@ -91,9 +91,14 @@ span {
 }
 
 .comoSaber {
-   text-align: center;
-   margin-top: 50px;
-   padding: 10%;
+   text-align: right;
+   margin-top: -35%;
+   padding: 5%;
+   float: right;
+   width: 70%;
+   display: inline;
+   float: 10%;
+   
 }
 
 .teste {
@@ -108,7 +113,7 @@ span {
 
 .mao {
    display: flex;
-   margin-top: 20px;
+   margin-top: 0%;
    padding: 2%;
 }
 
@@ -164,4 +169,22 @@ div i {
    font-size: 18x;
   margin-right: 5%;
             
+}
+.usuario1 {
+text-align: center;
+padding: 20px;;
+margin-top: 60px;
+font-size: 25x;
+margin-right: 10%;
+padding: -50%;
+         
+}
+.cadastro {
+   text-align: center;
+}
+
+.pensar{
+   text-align: left;
+   margin-top: 30px;
+   padding: 2%;
 }
